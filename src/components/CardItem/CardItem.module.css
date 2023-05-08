@@ -12,6 +12,18 @@
   border-radius: 20px;
 }
 
+.cardContainer::before {
+  content: '';
+  height: 8px;
+  width: 380px;
+  position: absolute;
+  left: 0px;
+  top: 214px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),
+    inset 0px -1.71846px 3.43693px #ae7be3, inset 0px 3.43693px 2.5777px #fbf8ff;
+}
+
 .cardLogo {
   position: absolute;
   width: 76px;
@@ -29,7 +41,34 @@
   height: 168px;
 }
 
+.avatarContainer {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 150px;
+  top: 178px;
+  background-color: #ebd8ff;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+  border-radius: 50%;
+}
+.avatarImg {
+  /* background-image: url(../../image/avatar.png); */
+  background-color: #5736a3;
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  left: 9.48px;
+  top: 9.42px;
+  border-radius: 50%;
+}
+
 .cardTweets {
+  margin-top: 88px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -41,6 +80,9 @@
 }
 
 .cardFollowers {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 26px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -54,11 +96,26 @@
 }
 
 .cardBtn {
-  display: block;
   margin: auto;
-  width: 196px;
-  height: 50px;
+  padding: 14px 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #ebd8ff;
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border-radius: 10.3108px;
+  border: 0;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 21.94px;
+  color: #373737;
+  width: 196px;
+  cursor: pointer;
+}
+
+.cardBtnFollowing {
+  background-color: #5cd3a8;
+  padding-left: 39px;
+  padding-right: 39px;
 }
