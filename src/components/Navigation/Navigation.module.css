@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  column-gap: 20px;
+}
+
+.navLink {
+  color: #454545;
+  padding: 5px 0;
+  margin: 16px 0;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.navLink:hover {
+    transform: scaleX(1);
+    color: #471ca9;
+}
