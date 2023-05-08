@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/562.cf299109.chunk.js","mappings":"0JAIA,UAJiB,WACf,OAAO,yCACR,C","sources":["Pages/HomePage.jsx"],"sourcesContent":["const HomePage = () => {\n  return <div> Tech Skills</div>;\n};\n\nexport default HomePage;\n"],"names":[],"sourceRoot":""}
