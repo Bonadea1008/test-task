@@ -20,10 +20,10 @@ export async function getAllUsers() {
   }
 }
 
-export async function updateUser(userId, userFollowers) {
+export async function updateUser(userId, newFollowers) {
   try {
     const { data } = await axios.put(`/Users/${userId}`, {
-      followers: userFollowers,
+      followers: newFollowers,
     });
     return data;
   } catch (error) {

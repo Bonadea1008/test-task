@@ -23,6 +23,7 @@ const TweetsPage = () => {
 
   useEffect(() => {
     if (page === 1) {
+      console.log(page);
       setIsLoad(true);
       setLoadMore(true);
       getUsers(page)
@@ -41,22 +42,24 @@ const TweetsPage = () => {
   }, [page]);
 
   useEffect(() => {
-    if (page < totalPages) {
+    if (page < totalPages / usersPerPage) {
       setLoadMore(true);
     }
   }, [page, totalPages]);
 
-  const updateUserFollowers = async (id, followers, following) => {
+  const updateUserFollowers = async (id, followers, followings) => {
     setUsers(users =>
       users.map(user => {
         if (user.id !== id) return user;
         return {
           ...user,
-          followers: !following ? (user.followers += 1) : (user.followers -= 1),
+          followers: !followings
+            ? (user.followers += 1)
+            : (user.followers -= 1),
         };
       })
     );
-    if (!following) {
+    if (!followings) {
       setFollowings(prev => [...prev, id]);
       await updateUser(id, (followers += 1));
     } else {
@@ -67,9 +70,8 @@ const TweetsPage = () => {
 
   const loadMoreHandler = () => {
     setPage(page + 1);
-    console.log(page);
   };
-
+  console.log(page);
   return (
     <>
       {isLoad ? (
