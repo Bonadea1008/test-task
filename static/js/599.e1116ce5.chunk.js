@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[599],{481:function(e,t,a){a.r(t),a.d(t,{default:function(){return i}});var r=a.p+"static/media/image-1.e9ef6d96a70dade10654.jpg",n=a(184),i=function(){return(0,n.jsxs)("div",{className:"container",children:[(0,n.jsx)("img",{src:r,alt:"Card for twitter"}),(0,n.jsx)("h1",{children:"Welcome in the application for managing tweets!"})]})}}}]);
+//# sourceMappingURL=599.e1116ce5.chunk.js.map

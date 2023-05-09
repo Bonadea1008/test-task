@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/test-task/static/css/main.8d04bc7f.css",
-    "main.js": "/test-task/static/js/main.44eccf36.js",
-    "static/js/562.cf299109.chunk.js": "/test-task/static/js/562.cf299109.chunk.js",
-    "static/css/670.1f25a46f.chunk.css": "/test-task/static/css/670.1f25a46f.chunk.css",
-    "static/js/670.fcdf296b.chunk.js": "/test-task/static/js/670.fcdf296b.chunk.js",
-    "static/js/279.2c004ea1.chunk.js": "/test-task/static/js/279.2c004ea1.chunk.js",
+    "main.css": "/test-task/static/css/main.97fe8c4b.css",
+    "main.js": "/test-task/static/js/main.0549dc55.js",
+    "static/js/599.e1116ce5.chunk.js": "/test-task/static/js/599.e1116ce5.chunk.js",
+    "static/css/157.2e8eeae2.chunk.css": "/test-task/static/css/157.2e8eeae2.chunk.css",
+    "static/js/157.578b9628.chunk.js": "/test-task/static/js/157.578b9628.chunk.js",
+    "static/js/190.f230403d.chunk.js": "/test-task/static/js/190.f230403d.chunk.js",
+    "static/media/image-1.jpg": "/test-task/static/media/image-1.e9ef6d96a70dade10654.jpg",
     "static/media/picture21.png": "/test-task/static/media/picture21.b3d9942b3f9d5dad1ff0.png",
     "index.html": "/test-task/index.html",
-    "main.8d04bc7f.css.map": "/test-task/static/css/main.8d04bc7f.css.map",
-    "main.44eccf36.js.map": "/test-task/static/js/main.44eccf36.js.map",
-    "562.cf299109.chunk.js.map": "/test-task/static/js/562.cf299109.chunk.js.map",
-    "670.1f25a46f.chunk.css.map": "/test-task/static/css/670.1f25a46f.chunk.css.map",
-    "670.fcdf296b.chunk.js.map": "/test-task/static/js/670.fcdf296b.chunk.js.map",
-    "279.2c004ea1.chunk.js.map": "/test-task/static/js/279.2c004ea1.chunk.js.map"
+    "main.97fe8c4b.css.map": "/test-task/static/css/main.97fe8c4b.css.map",
+    "main.0549dc55.js.map": "/test-task/static/js/main.0549dc55.js.map",
+    "599.e1116ce5.chunk.js.map": "/test-task/static/js/599.e1116ce5.chunk.js.map",
+    "157.2e8eeae2.chunk.css.map": "/test-task/static/css/157.2e8eeae2.chunk.css.map",
+    "157.578b9628.chunk.js.map": "/test-task/static/js/157.578b9628.chunk.js.map",
+    "190.f230403d.chunk.js.map": "/test-task/static/js/190.f230403d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d04bc7f.css",
-    "static/js/main.44eccf36.js"
+    "static/css/main.97fe8c4b.css",
+    "static/js/main.0549dc55.js"
   ]
 }
