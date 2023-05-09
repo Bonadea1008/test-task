@@ -1,5 +1,5 @@
 const HomePage = () => {
-  return <div> Tech Skills</div>;
+  return <div> This is an application for managing tweets</div>;
 };
 
 export default HomePage;

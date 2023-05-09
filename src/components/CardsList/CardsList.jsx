@@ -1,21 +1,31 @@
 import { CardItem } from 'components/CardItem/CardItem';
+import css from './CardList.module.css';
+import PropTypes from 'prop-types';
 
-const { useEffect, useState } = require('react');
-const { getUsers } = require('services/fetchAPI');
-
-const CardList = () => {
-  const [users, setUsers] = useState([]);
-
-  useEffect(() => {
-    getUsers().then(data => setUsers(data));
-  }, []);
-
-  console.log(users);
+const CardList = ({ users, followings, isFollowing }) => {
   return (
-    <ul>
-      <CardItem items={users} />
-    </ul>
+    <>
+      {users.length !== 0 && (
+        <ul className={css.cardList}>
+          {users.map(item => (
+            <li key={item.id}>
+              <CardItem
+                item={item}
+                followings={followings}
+                isFollowing={isFollowing}
+              />
+            </li>
+          ))}
+        </ul>
+      )}
+    </>
   );
 };
 
 export default CardList;
+
+CardList.propTypes = {
+  users: PropTypes.array,
+  // followings: PropTypes.array,
+  // isFollowing: PropTypes.func,
+};
